@@ -1,0 +1,2 @@
+//2017-3-2
+AndroidManifest中的第三方key在gradle中配置变种时，可以使用"EL表达式" :${}.
