@@ -1,2 +1,10 @@
-//2017-3-2
-AndroidManifest中的第三方key在gradle中配置变种时，可以使用"EL表达式" :${}.
+
+1.AndroidManifest中的第三方key在gradle中配置变种时，可以使用"EL表达式" :${}.
+
+2.动态布局加载：
+
+````java
+ LinearLayout.LayoutParams lp = (LinearLayout.LayoutParams)view.getLayoutParams();
+ lp.height = LinearLayout.LayoutParams.MATCH_PARENT;//相关动态操作
+ view.setLayoutParams(lp);
+````
