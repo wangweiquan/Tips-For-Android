@@ -14,10 +14,13 @@ hashmap是线程不安全的，若在多线程下要是用线程安全Collection
 hashmap的key可以为null,且总在存储在table数组的第一个节点上
 hashmap是对map接口的实现，hashtable实现了map接口和dictionary抽象类
 
-##mvp
+## mvp
+### 分离了视图逻辑和业务逻辑，降低了耦合
 
-####分离了视图逻辑和业务逻辑，降低了耦合
-####Activity只处理生命周期的任务，代码变得更加简洁
-####视图逻辑和业务逻辑分别抽象到了View和Presenter的接口中去，提高代码的可阅读性
-####Presenter被抽象成接口，可以有多种具体的实现，所以方便进行单元测试
-####把业务逻辑抽到Presenter中去，避免后台线程引用着Activity导致Activity的资源无法被系统回收从而引起内存泄露和OOM
+### Activity只处理生命周期的任务，代码变得更加简洁
+
+### 视图逻辑和业务逻辑分别抽象到了View和Presenter的接口中去，提高代码的可阅读性
+
+### Presenter被抽象成接口，可以有多种具体的实现，所以方便进行单元测试
+
+### 把业务逻辑抽到Presenter中去，避免后台线程引用着Activity导致Activity的资源无法被系统回收从而引起内存泄露和OOM
