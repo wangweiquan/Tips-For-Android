@@ -34,6 +34,5 @@ hashmap是对map接口的实现，hashtable实现了map接口和dictionary抽象
 解决办法：1.提供递归出口；2.加入中间对象判断
 
 6.获取本机默认keystore
-cmd
-cd.android
-keytool -list -v -keystore debug.keystore
+#### cd.android
+#### keytool -list -v -keystore debug.keystore
