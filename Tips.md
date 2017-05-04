@@ -32,3 +32,8 @@ hashmap是对map接口的实现，hashtable实现了map接口和dictionary抽象
 #### 不要再内部类里回调setText，因为afterTextChanged会自己回调一次setText，如果数据not changed,会发生反复递归 闪退;
 
 解决办法：1.提供递归出口；2.加入中间对象判断
+
+6.获取本机默认keystore
+cmd
+cd.android
+keytool -list -v -keystore debug.keystore
