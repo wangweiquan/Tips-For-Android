@@ -36,3 +36,6 @@ hashmap是对map接口的实现，hashtable实现了map接口和dictionary抽象
 6.获取本机默认keystore
 #### cd.android
 #### keytool -list -v -keystore debug.keystore
+
+7.画笔结束时样式
+![paint](http://img.blog.csdn.net/20160627223419305)
