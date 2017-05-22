@@ -41,5 +41,7 @@ hashmap是对map接口的实现，hashtable实现了map接口和dictionary抽象
 
 ```java
 Paint.Cap
+
+.setStrokeCap(Paint.Cap.ROUND)
 ```
 ![paint](http://img.blog.csdn.net/20160627223419305)
