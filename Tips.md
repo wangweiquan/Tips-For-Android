@@ -45,3 +45,6 @@ Paint.Cap
 .setStrokeCap(Paint.Cap.ROUND)
 ```
 ![paint](http://img.blog.csdn.net/20160627223419305)
+
+8.沉浸式导航栏
+toolbar + "fitsSystemWindows" + warp_content
